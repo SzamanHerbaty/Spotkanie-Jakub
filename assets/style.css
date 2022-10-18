@@ -51,6 +51,7 @@ a
     color: white;
     cursor: pointer;
     text-decoration: none;
+    margin-right: 20px;
     
 }
 a:hover
@@ -70,4 +71,9 @@ ul{
     display: inline-block;
     margin: 20px;
 } 
+.link{
+    font-size: 24px;
+    color: black;
+    margin-left: 20px;
+}
 

@@ -1,0 +1,37 @@
+body
+{
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+.post
+{
+    background-color: rgb(236, 241, 166);
+    border-radius: 45px;
+    width: 700px;
+    padding: 15px;
+    margin: 10px 0 10px 0;
+    
+}
+h1
+{
+    font-size: 36px;
+    font-style: italic;
+    margin-bottom: 10px;
+
+    
+}
+.post-title
+{
+    text-align: center;
+    font-size: 24px;
+    font-style: italic;
+    margin-bottom: 10px;
+
+}
+.post-description
+{
+    text-align: justify;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
