@@ -1,8 +1,4 @@
-body
-{
-    padding: 10px;
-    font-family: 'Open Sans', sans-serif;
-}
+
 .post
 {
     background-color: rgb(236, 241, 166);
@@ -14,11 +10,8 @@ body
 }
 h1
 {
-    font-size: 36px;
+    font-size: 28px;
     font-style: italic;
-    margin-bottom: 10px;
-
-    
 }
 .post-title
 {
