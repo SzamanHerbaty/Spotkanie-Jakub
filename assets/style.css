@@ -2,11 +2,13 @@ body{
     margin: 0;
     padding: 0;
     background: rgb(221, 191, 191);
+    font-family: 'Open Sans', sans-serif;
 }
 .nav{
-    background: rgb(76, 76, 134);
+    background: rgb(40, 40, 114);
     color: white;   
     padding: 5px;
+    text-align: center;
 }
 h1{
     text-align: center;
@@ -22,7 +24,7 @@ h1{
     font-size: 20px;
 }
 footer{
-    background: rgb(76, 76, 134);
+    background: rgb(40, 40, 114);
     color: white;   
     padding: 9px;
    
@@ -36,17 +38,14 @@ footer{
     display: inline-block;
     width: 49.75%;
 }
-a{
+.nav_item{
+    display: inline-block;
+    padding: 5px;
     text-decoration: none;
-    color: rgb(34, 32, 32);
-    transition: transform 0.2s;
-    background-color: rgb(204, 153, 153);
-    padding: 8px;
-    font-size: 26px;
-    display: block;
-    width: 56px;
-    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin: 5px;
 }
-a:hover{
-    transform: scale(1.3);
+.nav_item:hover{
+    background: rgb(51, 51, 139);
 }
