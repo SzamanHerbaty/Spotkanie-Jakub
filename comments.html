@@ -1,76 +1,103 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/comments.css">
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <title>Komentarze</title>
 </head>
-<body>
-    <div class="nav">
-        <a href="index.html" class="nav_item" target="_blank">Strona główna</a>
-        <a href="posts.html" class="nav_item" target="_blank">Blog</a>
-        <a href="comments.html" class="nav_item" target="_blank">Komentarze</a>
-        <a href="galery.html" class="nav_item" target="_blank">Galeria</a>
-        <a href="ranking.html" class="nav_item" target="_blank">Ranking</a>
-    </div>
-   
-    <div class="comment">
-        <p class="author">Author 08.11.2022</p>
-        <p class="comment-description">Brainf*ck – ezoteryczny język programowania stworzony w 
-            1993 roku przez Urbana Müllera, znany ze swojego skrajnego minimalizmu. Język ten 
-            składa się z zaledwie ośmiu prostych komend oraz wskaźnika instrukcji.</p>
-        <p class="comment-description">Hello world w Brainf*ck: ++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.</p>
-    </div>
-    <div class="comment">
-        <p class="author">Author 08.11.2022</p>
-        <p class="comment-description">Brainf*ck – ezoteryczny język programowania stworzony w 
-            1993 roku przez Urbana Müllera, znany ze swojego skrajnego minimalizmu. Język ten 
-            składa się z zaledwie ośmiu prostych komend oraz wskaźnika instrukcji.</p>
-        <p class="comment-description">Hello world w Brainf*ck: ++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.</p>
-    </div>
-    <div class="comment">
-        <p class="author">Author 08.11.2022</p>
-        <p class="comment-description">Brainf*ck – ezoteryczny język programowania stworzony w 
-            1993 roku przez Urbana Müllera, znany ze swojego skrajnego minimalizmu. Język ten 
-            składa się z zaledwie ośmiu prostych komend oraz wskaźnika instrukcji.</p>
-        <p class="comment-description">Hello world w Brainf*ck: ++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.</p>
-    </div>
-    <div class="comment-writing">
-    <div class="half-column">
-        <label for="user-name">Nazwa Użytkownika</label>
-        <input id="user-name" class="user-name" type="text" placeholder="Nazwa Użytkownika">
-    </div>
-    <div class="half-column">
-        <label for="email">E-mail</label>
-        <input id="email" class="email" type="text" placeholder="E-mail">
-    </div>
-    <div class="full-column">
-       <textarea id="tresc" class="tresc" placeholder="treść"></textarea>
-    </div>
-    <div class="full-column">
-        <label for="password">Hasło</label>
-        <input id="password" class="password" type="password" placeholder="Hasło">
-    </div>
-    <div class="full-column">
-        <input class="sumbit" type="submit" value="Sumbit">
-        
-    </div>
 
-    </div>
-    <footer>
-        <div class="full-column">
-           <h2>Kontakt</h2>
-            <div class="half-column">
-                Opis: Tak
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Strona kadeta</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Strona kadeta</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="galery.html">Galeria</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="posts.html">Vlog</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="ranking.html">Ranking</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="comments.html">Komentarze</a></li>
+                </ul>
             </div>
-            <div class="half-column">
-                Numer 564 658 978
+        </div>
+
+    </nav>
+    <main class="container">
+        <div class="comment">
+            <p class="lead">Author 08.11.2022</p>
+            <p class="comment-description">Brainf*ck – ezoteryczny język programowania stworzony w
+                1993 roku przez Urbana Müllera, znany ze swojego skrajnego minimalizmu. Język ten
+                składa się z zaledwie ośmiu prostych komend oraz wskaźnika instrukcji.</p>
+            <p class="comment-description">Hello world w Brainf*ck: ++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>
+                        >.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.</p>
+        </div>
+        <div class="comment">
+            <p class="lead">Author 08.11.2022</p>
+            <p class="comment-description">Brainf*ck – ezoteryczny język programowania stworzony w
+                1993 roku przez Urbana Müllera, znany ze swojego skrajnego minimalizmu. Język ten
+                składa się z zaledwie ośmiu prostych komend oraz wskaźnika instrukcji.</p>
+            <p class="comment-description">Hello world w Brainf*ck: ++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>
+                        >.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.</p>
+        </div>
+        <div class="comment">
+            <p class="lead">Author 08.11.2022</p>
+            <p class="comment-description">Brainf*ck – ezoteryczny język programowania stworzony w
+                1993 roku przez Urbana Müllera, znany ze swojego skrajnego minimalizmu. Język ten
+                składa się z zaledwie ośmiu prostych komend oraz wskaźnika instrukcji.</p>
+            <p class="comment-description">Hello world w Brainf*ck: ++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>
+                        >.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.</p>
+        </div>
+        <div class="comment-writing">
+            <div class="col-6 mb-2">
+                <label for="user-name">Nazwa Użytkownika</label>
+                <input id="user-name" class="form-control" type="text" placeholder="Nazwa Użytkownika">
             </div>
-           
+            <div class="col-6 mb-2">
+                <label for="email">E-mail</label>
+                <input id="email" class="form-control" type="text" placeholder="E-mail">
+            </div>
+            <div class="col-12 mb-2">
+                <textarea id="tresc" class="form-control" placeholder="treść"></textarea>
+            </div>
+            <div class="col-6 mb-2">
+                <label for="password">Hasło</label>
+                <input id="password" class="form-control p-2" type="password" placeholder="Hasło">
+            </div>
+            <div class="col-12 mb-2">
+                <input class="btn btn-primary" type="submit" value="Sumbit">
+
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="navbar-dark bg-dark mt-3 p-3">
+        <div class="container">
+            <h2>Kontakt</h2>
+            <div class="row">
+                <div class="col-6">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum repellat ipsa delectus saepe, autem cum
+                        sit aspernatur repellendus blanditiis, sint quia consectetur, itaque iure ut expedita mollitia ipsum
+                        temporibus debitis.
+                    </p>
+                </div>
+                <div class="col-6">
+                    <p>Mail: przykladowy_mail@gmail.com</p>
+                    <p>Discord: Discord#1234</p>
+                </div>
+            </div>
         </div>
     </footer>
+    <script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>
