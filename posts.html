@@ -5,17 +5,28 @@
     <title>Blog</title>
     <link rel="stylesheet" href="assets/posts.css">
     <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     
 </head>
 <body>
-    <div class="nav">
-        <a href="index.html" class="nav_item" target="_blank">Strona główna</a>
-        <a href="posts.html" class="nav_item" target="_blank">Blog</a>
-        <a href="comments.html" class="nav_item" target="_blank">Komentarze</a>
-        <a href="galery.html" class="nav_item" target="_blank">Galeria</a>
-        <a href="ranking.html" class="nav_item" target="_blank">Ranking</a>
-    </div>
-    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Strona kadeta</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Strona kadeta</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="galery.html">Galeria</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="posts.html">Vlog</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="ranking.html">Ranking</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="comments.html">Komentarze</a></li>
+                </ul>
+            </div>
+        </div>
+        
+    </nav>
     <div class="post">
         <p class="post-title">Brainf*ck - najlepszy język programowania</p>
         <p class="post-description">Brainf*ck – ezoteryczny język programowania stworzony w 
@@ -38,17 +49,24 @@
         <p class="post-description">Hello world w Brainf*ck: ++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.</p>
     </div>
   
-    <footer>
-        <div class="full-column">
-           <h2>Kontakt</h2>
-            <div class="half-column">
-                Opis: Tak
+    <footer class="navbar-dark bg-dark mt-3 p-3">
+        <div class="container">
+            <h2>Kontakt</h2>
+            <div class="row">
+                <div class="col-6">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum repellat ipsa delectus saepe, autem cum
+                        sit aspernatur repellendus blanditiis, sint quia consectetur, itaque iure ut expedita mollitia ipsum
+                        temporibus debitis.
+                    </p>
+                </div>
+                <div class="col-6">
+                    <p>Mail: przykladowy_mail@gmail.com</p>
+                    <p>Discord: Discord#1234</p>
+                </div>
             </div>
-            <div class="half-column">
-                Numer 564 658 978
-            </div>
-           
         </div>
     </footer>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

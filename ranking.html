@@ -4,20 +4,32 @@
     <meta charset="UTF-8">
     <title>Ranking</title>
     <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/galery.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
 </head>
 <body>
     <main>
-        <div class="nav">
-            <a href="index.html" class="nav_item" target="_blank">Strona główna</a>
-            <a href="posts.html" class="nav_item" target="_blank">Blog</a>
-            <a href="comments.html" class="nav_item" target="_blank">Komentarze</a>
-            <a href="galery.html" class="nav_item" target="_blank">Galeria</a>
-            <a href="ranking.html" class="nav_item" target="_blank">Ranking</a>
-        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Strona kadeta</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" href="index.html">Strona kadeta</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="galery.html">Galeria</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="posts.html">Vlog</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="ranking.html">Ranking</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="comments.html">Komentarze</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+        </nav>
         <div class="container">
-            <table>
+            <table class="table table-bordered table-striped mt-3">
                 <thead>
                     <tr>
                         <th colspan="3">Zainteresowania</th>
@@ -32,22 +44,22 @@
                     <tr>
                         <td>Informatyka</td>
                         <td>Informatyka jest super</td>
-                        <td><img src="img/informatyka.png"></td>
+                        <td><img class="img-fluid" src="img/informatyka.png"></td>
                     </tr>
                     <tr>
                         <td>Programowanie</td>
                         <td>Programowanie jest super</td>
-                        <td><img src="img/programowanie.jpg"></td>
+                        <td><img class="img-fluid" src="img/programowanie.jpg"></td>
                     </tr>
                     <tr>
                         <td>Sport</td>
                         <td>Sport jest super</td>
-                        <td><img src="img/szczęsny.jpg"></td>
+                        <td><img class="img-fluid" src="img/szczęsny.jpg"></td>
                     </tr>
                 </tbody>
             </table>
             <br>
-            <table>
+            <table class="table table-bordered table-striped">
                 <thead>
                     <tr>
                         <th colspan="4">Top 3 gry</th>
@@ -64,19 +76,19 @@
                         <td>1</td>
                         <td>Wiedźmin 3 - Dziki gon</td>
                         <td>Wiedźmin 3 jest super</td>
-                        <td><img  src="img/geralt.jpg"></td>
+                        <td><img class="img-fluid"  src="img/geralt.jpg"></td>
                     </tr>
                     <tr>
                         <td>2</td>
                         <td>Devil May Cry 5</td>
                         <td>Devil May Cry 5 jest super</td>
-                        <td><img src="img/devil.jpg"></td>
+                        <td><img class="img-fluid" src="img/devil.jpg"></td>
                     </tr>
                     <tr>
                         <td>3</td>
                         <td>Hades</td>
                         <td>Hades jest super</td>
-                        <td><img src="img/hades.jpg"></td>
+                        <td><img class="img-fluid"src="img/hades.jpg"></td>
                     </tr>
                 </tbody>
             </table>
